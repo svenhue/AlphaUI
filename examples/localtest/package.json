@@ -1,0 +1,67 @@
+{
+  
+  "name": "localtest",
+  
+  "version": "1.0.0",
+  
+  "description": "",
+  
+  "main": "index.js",
+  
+  "type": "module",
+  
+  "scripts": {
+  
+    
+  "dev": "vite",
+  
+    
+  "build": "vite build",
+  
+    
+  "preview": "vite build && vite preview"
+  
+  },
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "dependencies": {
+  
+    
+  "@vitejs/plugin-vue": "^4.5.2",
+  
+    
+  "cross-fetch": "^4.0.0",
+  
+    
+  "path": "^0.12.7",
+  
+    
+  "typescript": "^5.3.3",
+  
+    
+  "unhead": "^1.8.9",
+  
+    
+  "unplugin-vue-markdown": "^0.25.2",
+  
+    
+  "url": "^0.11.3",
+  
+    
+  "vike": "file:../../vike",
+  
+    
+  "vite": "^5.0.10"
+  
+  },
+  
+  "devDependencies": {
+  
+    
+  "@rollup/plugin-alias": "^5.1.0"
+  
+  }
+}

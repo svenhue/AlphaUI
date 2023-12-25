@@ -12,8 +12,10 @@ export type { PageContextClientWithServerRouting } from '../shared/types.js'
 export type { PageContextBuiltInServer } from '../shared/types.js'
 export type { PageContextBuiltInClientWithClientRouting } from '../shared/types.js'
 export type { PageContextBuiltInClientWithServerRouting } from '../shared/types.js'
+export type { plugin } from './plugin.js'
 
 export type {
+  
   Config,
   ConfigMeta as Meta,
   DataAsync,
