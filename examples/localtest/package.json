@@ -10,10 +10,15 @@
   
   "type": "module",
   
+  "module": "esnext",
+  
   "scripts": {
   
     
   "dev": "vite",
+  
+    
+  "generate-pages": "node ./generator/generatePages.js",
   
     
   "build": "vite build",
@@ -30,13 +35,31 @@
   "dependencies": {
   
     
+  "@types/node": "^20.10.5",
+  
+    
+  "@unhead/ssr": "^1.8.9",
+  
+    
+  "@unhead/vue": "^1.8.9",
+  
+    
   "@vitejs/plugin-vue": "^4.5.2",
   
     
   "cross-fetch": "^4.0.0",
   
     
+  "node-fetch": "^2.7.0",
+  
+    
   "path": "^0.12.7",
+  
+    
+  "ts-node": "^10.9.2",
+  
+    
+  "tsc": "^2.0.4",
   
     
   "typescript": "^5.3.3",
@@ -61,7 +84,10 @@
   "devDependencies": {
   
     
-  "@rollup/plugin-alias": "^5.1.0"
+  "@rollup/plugin-alias": "^5.1.0",
+  
+    
+  "hygen": "^6.2.11"
   
   }
 }

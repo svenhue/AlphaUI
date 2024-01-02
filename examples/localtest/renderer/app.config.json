@@ -1,0 +1,18 @@
+
+{
+    "plugins":[
+        {
+            "file": "unhead"
+        }
+    ],
+    "pages": [
+        {
+            "name": "TestName",
+            "meta":{
+                "title": "TestTitle",
+                "description": "TestDescription",
+                "keywords": "TestKeywords"
+            }
+        }
+    ]
+}

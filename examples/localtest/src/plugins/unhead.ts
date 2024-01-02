@@ -1,6 +1,7 @@
 import { App } from "vue";
-import { useHead } from "unhead";
+import { createHead } from "@unhead/vue";
 
-export default function unhead(app: App){
-    app.use(useHead);
+export default function unhead(app: App, ){
+    const head = createHead();
+    app.use(head);
 }

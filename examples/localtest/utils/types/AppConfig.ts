@@ -1,14 +1,8 @@
-type plugin = {
-    client?: boolean
-    server?: boolean
-    name: string
-}
-
-
+import { plugin } from './plugin'
 
 type AppConfig = {
     plugins: plugin[]
 }
 
 
-export { AppConfig, plugin }
+export { AppConfig }

@@ -10,7 +10,7 @@ import type { OnRenderHtmlAsync } from 'vike/types'
 const onRenderHtml: OnRenderHtmlAsync = async (pageContext): ReturnType<OnRenderHtmlAsync> => {
   const app = createApp(pageContext)
   const stream = renderToNodeStream(app)
-
+  
   const title = getPageTitle(pageContext)
 
   const documentHtml = escapeInject`<!DOCTYPE html>
